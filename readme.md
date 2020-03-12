@@ -1,3 +1,8 @@
+---
+layout: page
+#title: About
+#permalink: /about/
+---
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/loyfan/loyfan.github.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
