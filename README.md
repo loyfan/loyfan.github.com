@@ -25,6 +25,33 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+```go
+package main
+
+import "fmt"
+import "time"
+
+func main() {
+	const INT32_MAX = int32(^uint32(0) >> 1)
+	const INT64_MAX = int64(^uint64(0) >> 1)
+
+	fmt.Print(INT32_MAX, INT64_MAX)
+	fmt.Print("\n")
+	
+	const INT32_MIN = ^INT32_MAX
+	const INT64_MIN = ^INT64_MAX
+
+	fmt.Print(INT32_MIN, INT64_MIN)
+	fmt.Print("\n")
+
+	//fmt.Print(time.Unix(-int64(INT32_MAX)*9, 0))
+	//fmt.Print(time.Unix(INT64_MIN/2-int64(INT32_MAX)*9, 0))
+
+	fmt.Print(time.Unix(INT64_MIN+int64(INT32_MAX)*3, 0))
+	fmt.Print("\n")
+	fmt.Print(time.Unix(INT64_MAX, 0))
+}
+```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
