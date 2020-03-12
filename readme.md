@@ -1,6 +1,6 @@
 ---
 layout: page
-#title: About
+title: Page
 #permalink: /about/
 ---
 ## Welcome to GitHub Pages
