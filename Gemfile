@@ -1,2 +1,2 @@
 source "https://rubygems.org"
-gem "jekyll-theme-chirpy", "~> 5.1", ">= 5.1.0"
+gem "jekyll-theme-chirpy", github: "cotes2020/jekyll-theme-chirpy"
