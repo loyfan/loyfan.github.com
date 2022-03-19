@@ -1,8 +1,8 @@
 title: loyfan@github
 description: home page
 
-remote_theme: cotes2020/jekyll-theme-chirpy
-#theme: jekyll-theme-chirpy
+#remote_theme: cotes2020/jekyll-theme-chirpy
+theme: minima
 markdown: kramdown
 
 google_analytics: UA-27709908-2
