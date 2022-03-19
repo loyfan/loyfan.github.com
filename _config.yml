@@ -1,7 +1,7 @@
 title: loyfan@github
 description: home page
 
-theme: minima
+theme: jekyll-theme-leap-day
 markdown: kramdown
 
 google_analytics: UA-27709908-2
